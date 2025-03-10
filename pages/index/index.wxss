@@ -1,0 +1,18 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  height: -webkit-fill-available; /* 兼容 WebView */
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: auto; /* 改为 auto 提高兼容性 */
+  -webkit-overflow-scrolling: touch; /* 增加 WebView 滚动体验 */
+}
+
+.container {
+  box-sizing: border-box;
+  min-height: 100%;
+  padding: 20rpx;
+}

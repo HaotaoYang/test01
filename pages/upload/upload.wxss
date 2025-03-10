@@ -1,0 +1,31 @@
+.container {
+  padding: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f8f8f8;
+}
+
+.upload-box {
+  width: 400rpx;
+  height: 400rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.1);
+}
+
+.upload-icon {
+  width: 128rpx;
+  height: 128rpx;
+  margin-bottom: 30rpx;
+}
+
+.upload-text {
+  font-size: 28rpx;
+  color: #666;
+} 

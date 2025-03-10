@@ -1,0 +1,12 @@
+<!--上传图片页面-->
+<view class="container">
+  <view class="upload-box" bindtap="chooseImage">
+    <view class="icon-wrapper">
+      <view class="upload-icon">
+        <view class="icon-line vertical"></view>
+        <view class="icon-line horizontal"></view>
+      </view>
+    </view>
+    <text class="upload-text">点击上传图片</text>
+  </view>
+</view> 
